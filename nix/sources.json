@@ -35,18 +35,6 @@
         "url": "https://github.com/nmattia/niv/archive/303f442c43f918bc43400ab4a0b662a82ca7748b.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
-    "nix-doc": {
-        "branch": "main",
-        "description": "A Nix documentation lookup tool that quickly dumps the docs of the library function you're interested in",
-        "homepage": "",
-        "owner": "lf-",
-        "repo": "nix-doc",
-        "rev": "b83696bfa0b92e095cd00074f3e217b2b4aef910",
-        "sha256": "180zdmbmmnimf5l6k714mzhgpvbym5q4wdasd9wnfmhg6lj5abd0",
-        "type": "tarball",
-        "url": "https://github.com/lf-/nix-doc/archive/b83696bfa0b92e095cd00074f3e217b2b4aef910.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
     "nix-tree": {
         "branch": "master",
         "description": "Interactively browse the dependency graph of your Nix derivations.",
@@ -105,6 +93,18 @@
         "sha256": "0pxzv4ibzal4jawqzji637wrmzxlprbkz8anv53is2534xms82v5",
         "type": "tarball",
         "url": "https://github.com/ryantm/nixpkgs-update/archive/a2a9bcafc118e186c440881ccd08b07d24ec808e.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "rnix-lsp": {
+        "branch": "master",
+        "description": "WIP Language Server for Nix! [maintainer=@jD91mZM2]",
+        "homepage": "",
+        "owner": "elkowar",
+        "repo": "rnix-lsp",
+        "rev": "ec000f390bb00404b11cd3fee24c441203c86f79",
+        "sha256": "10bj9l6ydpy5kbrf9qf32i093yv1bxavi9qcnx5i35nss2342f1n",
+        "type": "tarball",
+        "url": "https://github.com/elkowar/rnix-lsp/archive/ec000f390bb00404b11cd3fee24c441203c86f79.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "zsh-autosuggestions": {
