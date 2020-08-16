@@ -23,6 +23,18 @@
         "url": "https://github.com/rycee/home-manager/archive/223e3c38a13fb45726c7a9d97e2612ae53ab4f98.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "manix": {
+        "branch": "master",
+        "description": "A fast CLI documentation searcher for Nix.",
+        "homepage": null,
+        "owner": "mlvzk",
+        "repo": "manix",
+        "rev": "689fa137a10fedc326e92a4ebaeccd20b3d3597a",
+        "sha256": "1j2mrgkbxch2y5z70k7xkm1asqhzprj600632mkggl2vrakbybls",
+        "type": "tarball",
+        "url": "https://github.com/mlvzk/manix/archive/689fa137a10fedc326e92a4ebaeccd20b3d3597a.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "niv": {
         "branch": "master",
         "description": "Easy dependency management for Nix projects",
@@ -33,30 +45,6 @@
         "sha256": "19z1qypd6zd4qzhrhjm7j55v85fzf8wln8l9vslvn9dpspcwxv7c",
         "type": "tarball",
         "url": "https://github.com/nmattia/niv/archive/303f442c43f918bc43400ab4a0b662a82ca7748b.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
-    "nix-tree": {
-        "branch": "master",
-        "description": "Interactively browse the dependency graph of your Nix derivations.",
-        "homepage": "",
-        "owner": "utdemir",
-        "repo": "nix-tree",
-        "rev": "7830fad9969dae119c637f7fe0cc82f8768f317e",
-        "sha256": "1p5hg4j9f3g1v2y1yac3jnf33c0ll3d9ygjv9lyzjjy04xnzvl4k",
-        "type": "tarball",
-        "url": "https://github.com/utdemir/nix-tree/archive/7830fad9969dae119c637f7fe0cc82f8768f317e.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
-    "nixos-hardware": {
-        "branch": "master",
-        "description": "A collection of NixOS modules covering hardware quirks.",
-        "homepage": "",
-        "owner": "NixOS",
-        "repo": "nixos-hardware",
-        "rev": "55f9eb6a73b2f932a9958810c5927feca02ce208",
-        "sha256": "020i7jhvb66r9ddx463r2qcql25annfmhriy9higbkygl7g937zk",
-        "type": "tarball",
-        "url": "https://github.com/NixOS/nixos-hardware/archive/55f9eb6a73b2f932a9958810c5927feca02ce208.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nixpkgs": {
